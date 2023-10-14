@@ -1,0 +1,67 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 32px;
+}
+
+/*these flexboxes organize the user inputs*/
+.sizeSelection {
+        display: flex;
+    flex-direction: column;
+    align-content: center;
+    width: 600px;
+    flex: 1;    
+}
+
+.dimensionFlexbox {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    padding:5px;
+    justify-content: center;
+    align-items: center;
+}
+
+.userInput {
+    margin: 25px;
+}
+
+.buttonFlexbox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    justify-content: space-around;
+}
+
+.Button {
+    width: 150px;
+    height: 30px;
+    margin: 10px;
+}
+
+/*these flexboxes are for the screen and faux pixels*/
+.screenContainer {
+    display: flex;
+    flex-direction: row;
+    height: 960px;
+    width: 960px;
+    border: 2px solid black;
+    justify-content: space-between;
+}
+
+.verticleBars {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: space-between;
+}
+
+.pixelBox {
+    display: flex;
+    /*background-color: aqua;
+    border-radius: 10px;*/
+    flex: auto;
+}
